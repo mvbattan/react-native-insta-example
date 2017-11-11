@@ -8,7 +8,8 @@ const midHeart = {
   height,
   borderTopLeftRadius: 50,
   borderTopRightRadius: 50,
-  position: 'absolute'
+  position: 'absolute',
+  backgroundColor: 'red'
 }
 
 const styles = StyleSheet.create({
