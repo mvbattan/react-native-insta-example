@@ -16,8 +16,8 @@ const styles = StyleSheet.create({
   container: {
     justifyContent: 'flex-start',
     alignItems: 'center',
-    height,
-    width,
+    height: height + 10,
+    width: width * 2
   },
   heartRight: {
     ...midHeart,
