@@ -9,7 +9,7 @@ import styles from './styles';
 const headerTransform = scrolledAmount => ({
   height: scrolledAmount.interpolate({
     inputRange: [0, 50, 100, 150, 200, 250],
-    outputRange: [100, 0, 0, 0, 0, 0],
+    outputRange: [100, 100, 50, 25, 15, 0],
     extrapolate: 'clamp'
   })
 });
